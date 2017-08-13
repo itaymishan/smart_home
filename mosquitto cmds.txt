@@ -1,1 +1,8 @@
 mosquitto_sub.exe -v -h 192.168.0.100 -p 1883 -t "#"
+
+
+mosquitto_sub.exe -v -h m10.cloudmqtt.com -p 17307 -t "#"
+
+mosquitto_pub.exe -h m10.cloudmqtt.com -u "zpyfadbz" -P "l3xJF6OEkGQj" -p 17307 -t "topic" -m "asdasd"
+
+mosquitto_sub.exe -h m10.cloudmqtt.com -u "zpyfadbz" -P "l3xJF6OEkGQj" -p 17307 -t "#"
