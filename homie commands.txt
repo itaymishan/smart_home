@@ -3,3 +3,5 @@ homie/light01/light/on/set ← true
 
 
 homie/a020a616c643/light/on/set (params = true\false)
+
+homie/garage-door-kama/
